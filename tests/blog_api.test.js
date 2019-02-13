@@ -83,6 +83,14 @@ test('check that if title and url are undefined, request gets code 400', async (
       .expect('Content-Type', /application\/json/)
 })
 
+test('check that a blog can be deleted', async () => {
+    const blogs = await helper.blogsInDb()
+    const idToDelete = blogs[0].id
+    await api
+      .delete('/api/blogs/'+idToDelete)
+      .expect(204)
+})
+
 afterAll(() => {
   mongoose.connection.close()
 })
