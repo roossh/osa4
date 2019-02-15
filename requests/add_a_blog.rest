@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+  {
+    "title": "Populate Function in Action",
+    "author": "async",
+    "url": "https://blog.blog",
+    "userId": "5c67229461135424705fddd3"
+  }
