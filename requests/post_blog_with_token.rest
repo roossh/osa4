@@ -1,6 +1,6 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RpIiwiaWQiOiI1YzZhYTBkOTZjZGIxMTNjZTAwM2Q0MDIiLCJpYXQiOjE1NTA1MTU1NjZ9.94LGF1Tepiy7cqelYosNYcjxb8JNr3HiFOXJ8BKh-oQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RpIiwiaWQiOiI1YzZhYTBkOTZjZGIxMTNjZTAwM2Q0MDIiLCJpYXQiOjE1NTA1MTU3OTN9.5whTLeHrS7xsEDQIHk-VSpfftdwM4ieE6jtS8EiaZ9E
 
 {
     "title": "Posting with Tokens II",
