@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RpIiwiaWQiOiI1YzZhYTBkOTZjZGIxMTNjZTAwM2Q0MDIiLCJpYXQiOjE1NTA0OTE5NTR9.GWEvSOavlh3jeFwV1zv-JWyOC_LlyPswii7z6KrlcNE
+
+{
+    "title": "Posting with Tokens II",
+    "author": "Me",
+    "url": "blogs.blog"
+}

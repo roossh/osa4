@@ -47,7 +47,7 @@ test('cannot add a user with password shorter than 3 characters', async () => {
 
 test('cannot add a user if username exists', async () => {
     const newUser = {
-        username: 'RepomiehenRauno',
+        username: 'raunorepomies',
         name: 'Rauno Repomies',
         password: '598jgiut9uv0vi53i6'
     }
