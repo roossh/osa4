@@ -4,6 +4,6 @@
 
 [täällä](https://github.com/roossh/osa4/tree/4.1-4.7)
 
-### 4.8-4.17
+### 4.8-4.21
 
-tehtynä.
+masterissa.
